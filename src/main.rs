@@ -149,6 +149,8 @@ fn main() {
     let instanceArgs = cliArgs::new();
     println!("\n Bitwarden Sync\n----------------\n");
 
+    // TODO change how to swap modes
+    // TODO add csv and http handling
     println!(
         "* using account '{0}' on bitwarden host '{1}'",
         instanceArgs.AccountName, instanceArgs.HostURL
